@@ -1,0 +1,6 @@
+System: Windows
+Node Name: PC676
+Release: 10
+Version: 10.0.19041
+Machine: 10.0.19041
+Processor: AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
