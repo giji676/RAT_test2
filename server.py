@@ -71,7 +71,7 @@ while True:
 
     elif command == "screenshot":
         conn.send(command.encode())
-        screenshot = conn.recv(50000)
+        screenshot = conn.recv(100000)
         screenshot_count += 1
         img_name = "screenshot" + str(screenshot_count) + ".png"
         img = open(img_name, "wb")
